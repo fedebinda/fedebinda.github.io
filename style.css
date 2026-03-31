@@ -112,3 +112,20 @@ color: var(--accent-color);
 border-bottom: 1px dashed var(--border-color);
 display: inline-block;
 }
+
+/* Research Page Paper Styling */
+.paper-title {
+    font-weight: bold;
+    font-style: italic;
+    color: #1b4332; /* That deep forest green */
+}
+
+.coauthors {
+    color: #555555; /* A subtle dark gray so your name/title pops */
+    font-size: 0.95em;
+}
+
+ul li {
+    margin-bottom: 15px; /* Adds nice breathing room between papers */
+    line-height: 1.5;
+}
