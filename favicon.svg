@@ -1,4 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <circle cx="50" cy="50" r="40" stroke="#1b4332" stroke-width="8" fill="none" />
-  <circle cx="50" cy="50" r="20" stroke="#ca6702" stroke-width="6" fill="none" />
-</svg>
+  <polygon points="50,10 85,30 85,70 50,90 15,70 15,30" stroke="#1b4332" stroke-width="12" fill="none" stroke-linejoin="round"/>
+  <circle cx="50" cy="50" r="16" fill="#ca6702" />
+</svg
