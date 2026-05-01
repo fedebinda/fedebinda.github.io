@@ -124,6 +124,10 @@ display: inline-block;
     color: #555555; /* A subtle dark gray so your name/title pops */
     font-size: 0.95em;
 }
+.collaborators-list {
+    column-count: 2; /* Or 3, depending on your max-width */
+    column-gap: 20px;
+}
 
 ul li {
     margin-bottom: 15px; /* Adds nice breathing room between papers */
