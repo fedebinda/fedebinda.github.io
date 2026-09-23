@@ -129,6 +129,15 @@ display: inline-block;
     column-gap: 20px;
 }
 
+.leave-notice {
+    background-color: var(--box-bg);
+    padding: 15px 20px;
+    border-radius: 8px;
+    border-left: 4px solid var(--link-color);
+    margin: 20px 0 30px 0;
+    font-size: 0.95em;
+}
+
 ul li {
     margin-bottom: 15px; /* Adds nice breathing room between papers */
     line-height: 1.5;
