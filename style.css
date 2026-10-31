@@ -5,7 +5,7 @@
 --bg-color: #ffffff;       /* Crisp white background */
 --text-main: #003a37;      /* Darkest forest green for highly readable text */
 --accent-color: #045149;   /* Deep rich green for your name and headings */
---link-color: #d84f2a;     /* Darker orange (from Honey Pot) for resting links */
+--link-color: #c94a1c;     /* Darker orange (from Honey Pot) for resting links; AA contrast on white */
 --link-hover: #f9744b;     /* Bright coral/orange (from Honey Pot) for hovering */
 --border-color: #dae0e5;   /* Soft cool gray for subtle dividing lines */
 --box-bg: #f2f0e4;         /* Bright, warm cream for the contact box */
@@ -56,7 +56,6 @@ color: var(--text-main);
 text-decoration: none;
 font-weight: 500;
 transition: all 0.2s ease;
-opacity: 0.7; /* Slightly faded when not active */
 }
 
 nav a:hover, nav a.active {
@@ -107,7 +106,7 @@ display: inline-block;
 .paper-title {
     font-weight: bold;
     font-style: italic;
-    color: #1b4332; /* That deep forest green */
+    color: var(--accent-color);
 }
 
 .coauthors {
